@@ -56,7 +56,7 @@ bool isParsedN = int.TryParse(Console.ReadLine(), out int n);
 
 if (!isParsedN || n <= 0)
 {
-    Console.WriteLine("Не правильно введены данные");
+    Console.WriteLine("Не правильное число");
     return;
 }
 
